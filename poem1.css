@@ -12,7 +12,9 @@ body{
     background-repeat: repeat; 
     background-attachment: fixed; 
     background-position: center;
-    
+} 
+
+
 
 .card{
     border-radius: 7px;
@@ -21,14 +23,21 @@ body{
     
     padding: 7px 15px;
     
-        max-width: 750px;
-        margin: auto;
-        margin-top: 10px;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.ei{
+    background-color: rgba(253, 175, 175, 0.942);
+    text-align: center;
 }
 
 .card p{
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
 
 .poem{
     font-family: "Great Vibes";
@@ -37,5 +46,23 @@ body{
     font-size: 25px;
 }
 
+#psss{
+    text-align: right;
+    padding-right: 5%;
+    font-weight: 600;
+    font-size: 23px;
+}
 
+.rt{
+    font-family: "Great Vibes";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+}
 
+.map{
+    border-radius: 7px;
+    overflow: hidden;
+    border-color: #eb2b2b;
+    border: 3px solid #eb2b2b;
+}
