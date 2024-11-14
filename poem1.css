@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body{
+    font-size: 20px;
+    font-family: "Great Vibes";
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    background-color: #eb2b2b;
+    background-image: url('file56005.jpeg'); 
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    
+
+.card{
+    border-radius: 7px;
+    background-color: rgba(255, 207, 214, 0.932);
+    padding: 5px;
+    
+    padding: 7px 15px;
+    
+        max-width: 750px;
+        margin: auto;
+        margin-top: 10px;
+}
+
+.card p{
+    padding-left: 10%;
+}
+
+.poem{
+    font-family: "Great Vibes";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+
