@@ -39,8 +39,7 @@ body{
 .button{
     position: absolute; 
     top: 29px; 
-    left: 7px;
-    
+    left: 3px;
 }
 
 .foto{
@@ -130,6 +129,15 @@ body{
 }
 
 @media (max-width: 500px) {
-    #hja, #map {
-        transform: translateX(15px); 
-    }}
+    .card h1 {
+        transform: translateX(10px); 
+    }
+    .button{
+        position: absolute; 
+        top: 35px; 
+        left: 3px;
+    }
+    .foto{
+        width: 4rem;
+    }
+}
