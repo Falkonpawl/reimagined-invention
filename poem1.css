@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Caslon+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 body{
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Great Vibes";
     font-weight: 400;
     font-style: normal;
@@ -56,7 +56,7 @@ body{
     font-family: "Great Vibes";
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 27px;
     text-align: left;
 }
 
@@ -64,14 +64,14 @@ body{
     text-align: right;
     padding-right: 5%;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .rt{
     font-family: "Great Vibes";
     font-weight: 400;
     font-style: normal;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .map{
@@ -105,7 +105,7 @@ body{
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 27px;
     color: #ffffff;
     display: block;
     transition: 0.3s;
@@ -125,7 +125,7 @@ body{
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav a {font-size: 23px;}
 }
 
 @media (max-width: 500px) {
