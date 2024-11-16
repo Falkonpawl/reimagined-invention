@@ -129,8 +129,8 @@ body{
 }
 
 @media (max-width: 500px) {
-    .card h1 {
-        transform: translateX(10px); 
+/*     .card h1 {
+        transform: translateX(10px);  */
     }
     .button{
         position: absolute; 
