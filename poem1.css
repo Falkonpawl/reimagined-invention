@@ -140,4 +140,10 @@ body{
     .foto{
         width: 4rem;
     }
+    #map {
+        transform: translateX(17px);
+    }
+    #hja{
+        transform: translateX(21px);
+    }
 }
