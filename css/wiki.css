@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Caslon+Display&display=swap');
+
+body{
+    font-size: 24px;
+    font-style: normal;
+    color: #000000;
+    background-color: #f78181;
+    margin: 0px;
+    background-attachment: fixed; 
+    background-position: center;
+    line-height: 1.21;
+} 
+
+.card1{
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(255, 138, 138, 0.1);
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0px 5px 20px 4px rgba(0, 0, 0, 0.3);
+    height: 144px;
+}
+
+.foto1{
+    background-image: url(../img/Dall-E.webp);
+    background-size: cover; 
+    height: 144px;
+    box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nav{
+    font-family: "Great Vibes";
+    text-decoration: none;
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(255,211,211,1) 80%);
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0px 5px 20px 4px rgba(0, 0, 0, 0.5);
+    height: 0px;
+    position: absolute;
+    z-index: +20;
+    left: 50%;
+    transform: translate(-50% );
+    transition: 0.5s;
+    overflow-y: hidden;
+}
+
+#closenav{
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../img/icons8-закрыть-окно-50.png);
+    background-color: #ffffff;
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    border-radius: 3px;
+    top: 9px;
+    right: 14px;
+}
+
+.navtext{
+    margin: 5px;
+    background-color: #ffa6a5;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+}
+
+table{
+    margin: 5px;
+    border: #000000;
+    color: #f78181;
+
+}
+
+td {
+    border: #ff8686 solid 2px;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    background-color: #ffa6a5;
+
+}
+
+.nav a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:active{
+    color: #00000096;
+}
+
+button{
+    height: 37px;
+    width: 124px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Great Vibes";
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    background-color: #FFD3D3;
+}
+button:hover{
+    background-color: #f78181;
+}
+
+button:active{
+    background-color: #f78181;
+}
+
+#btnfoto{
+    margin: 17px 0px 22px 20px;
+}
+
+#btnmap{
+    margin: 17px 20px 22px 0px;
+    float: right;
+}
+
+#btnpoem{
+    margin: 0px auto;
+    display: block; 
+}
+
+.foto2{
+    width: 200vw;
+    margin: -144px auto;
+    aspect-ratio: 15/10;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    left: 100%;
+    transform: translate(-50% )
+}
+
+.foto3{
+    background-image: url(../img/Dall-E.webp);
+    background-size: cover; 
+    margin-top: calc(200vw*0.4);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: -1px -5px 10px 1px rgba(0, 0, 0, 0.5);
+    
+}
+
+.card2{
+    font-size: 40px;
+    font-weight: 600;
+    background-color: rgba(255, 138, 138, 0.1);
+    max-width: 450px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: -1px -5px 10px 1px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#name{
+    text-align: center;
+    background-color: #ffa6a5;
+    margin-top: calc(200vw*0.4+20px);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0px 20px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card3{
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #ffd7d6;
+    max-width: 450px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 5px 20px 10px 20px;
+    margin-bottom: 0px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+#date{
+    text-align: right;
+    font-weight: 600;
+}
+
+#psss{
+    padding: 10px 5px 5px 20px;
+}
+
+#map{
+    border-radius: 7px;
+    overflow: hidden;
+    border: 3px solid #ffd7d6;;
+    padding: 0px;
+}
